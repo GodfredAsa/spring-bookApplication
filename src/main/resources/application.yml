@@ -1,0 +1,21 @@
+#spring.datasource.url = jdbc:postgresql://localhost:5432/db_book?currentSchema = sc_book&ssl = false
+#spring.datasource.username = admin
+#spring.datasource.password = admin@12345
+#spring.datasource.driver-class-name = org.postgresql.Driver
+#spring.jpa.database-platform = org.hibernate.dialect.PostgreSQLDialect
+#
+#spring.jpa.hibernate.ddl-auto = update
+#spring.jpa.show-sql = true
+
+spting:
+  datasource:
+    url: postgresql://localhost:5432/db_book?currentSchema = sc_book&ssl = false
+    username: admin
+    password: admin@12345
+    driver-class-name: org.postgresql.Driver
+  database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+  show-sql: true
